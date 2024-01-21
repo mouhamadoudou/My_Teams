@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "typeinfo": "c",
+        "system_error": "c",
+        "save_data.h": "c",
+        "logging_server.h": "c",
+        "time.h": "c",
+        "types.h": "c",
+        "uuid.h": "c",
+        "stat.h": "c",
+        "unistd.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "in.h": "c",
+        "fcntl.h": "c",
+        "my.h": "c"
+    }
+}
