@@ -1,12 +1,12 @@
 # My_Teams
 
-##Epitech Project :
+## Epitech Project :
 
 Creat Teams server
 
-##my Teams
 binary name: myteams_server, myteams_cli
-language: C
+
+### language: C
 compilation: via Makefile, including re, clean and fclean rules
 • The totality of your source files, except all useless files (binary, temp files, obj
 files,...), must be included in your delivery.
@@ -22,10 +22,9 @@ You MUST push the given logging library and its includes at the root of the repo
 root_of_your_repository/libs/myteams/[extracted files].
 1
 
-##SERVER
-∇ Terminal - + x
-∼/B-NWP-400> ./myteams_server –help
-USAGE: ./myteams_server port
+## SERVER
+
+### USAGE: ./myteams_server port
 port is the port number on which the server socket listens.
 The server MUST be able to handle several clients at the same time by using select for command management.
 When the server is shut down it MUST save its internal information in the current folder. (Think about Ctrl-c)
@@ -35,6 +34,7 @@ Any bad use of select would cause point loss
 The use of fork and threads is prohibited
 Take a look at man 3 uuid and man 7 queue.
 Think about strace to debug your program.
+
 FEATURES
 Your server MUST be able to manage a collaborative communication application like the well known Microsoft Teams ®.
 A collaborative communication application is a service able to manage several communication teams, where
@@ -42,7 +42,7 @@ discussion are organised like following:
 • threads (initial post and additional comments) in a specific channel
 • discussion (personnal messages)
 Here are the features intended to be implemented :
-2
+
 • Creating/Joining/Leaving a team
 • Creating a user
 • Creating a channel in a team
@@ -52,7 +52,8 @@ Here are the features intended to be implemented :
 • Personnal discussion (from a user to an other)
 • Saving & restoring personnal discussion
 
-##LOG
+## LOG
+
 The server MUST use the given logging library to print EVERY requested events on the standard error output
 as described :
 Please refer to the library’s header file to see the list of events to handle.
@@ -68,9 +69,8 @@ Someone that is NOT subscribed in a team should not receive events related to th
 etc. .. ).
 3
 
-##COMMAND LINE INTERFACE (CLI) CLIENT
-∇ Terminal - + x
-∼/B-NWP-400> ./myteams_cli –help
+## COMMAND LINE INTERFACE (CLI) CLIENT
+
 USAGE: ./myteams_cli ip port
 ip is the server ip address on which the server socket listens
 port is the port number on which the server socket listens
